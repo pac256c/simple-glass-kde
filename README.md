@@ -11,6 +11,7 @@ KDE Plasma global theme: ChromeOS-style translucent panels/widgets + Willow blur
 - Cursor: catppuccin-cursors-mocha (dependency)
 - Widget style: Darkly
 - GTK theme: `SimpleGlass` (in `gtk/SimpleGlass`)
+- SDDM theme: `TerminalStyleLogin` (in `sddm/TerminalStyleLogin`)
 
 ## Install
 Copy folders to `~/.local/share/` (aurorae/themes, color-schemes, plasma/desktoptheme, plasma/look-and-feel), and install the GTK theme to `~/.themes/SimpleGlass`. Then choose SimpleGlass in System Settings -> Appearance -> Global Theme. Enable blur in System Settings -> Display -> Compositor if needed.
