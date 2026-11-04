@@ -6,7 +6,7 @@ pkgdesc="SimpleGlass KDE Plasma global theme"
 arch=('any')
 url="https://github.com/pac256c/simple-glass-kde"
 license=('GPL-3.0-or-later')
-depends=('plasma-desktop' 'plasma-workspace' 'kwin' 'aurorae' 'darkly' 'gtk3' 'gtk4' 'hicolor-icon-theme')
+depends=('plasma-desktop' 'plasma-workspace' 'kwin' 'aurorae' 'darkly' 'gtk3' 'gtk4' 'hicolor-icon-theme' 'sddm')
 optdepends=('breeze-gtk: GTK Breeze fallback')
 source=("git+https://github.com/pac256c/simple-glass-kde.git")
 sha256sums=('SKIP')
@@ -39,6 +39,10 @@ package() {
 
     # Wallpaper
     install -Dm644 wallpaper/WhiteSur.jpg "$pkgdir/usr/share/backgrounds/SimpleGlass/WhiteSur.jpg"
+
+    # SDDM theme
+    install -d "$pkgdir/usr/share/sddm/themes"
+    cp -r sddm/TerminalStyleLogin "$pkgdir/usr/share/sddm/themes/TerminalStyleLogin"
 
     # Examples
     install -d "$pkgdir/usr/share/simpleglass/examples"
