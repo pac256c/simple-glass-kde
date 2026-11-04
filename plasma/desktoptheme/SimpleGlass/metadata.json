@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice"
+            }
+        ],
+        "Category": "Plasma 6.0 theme",
+        "Description": "SimpleGlass plasma theme (ChromeOS-style translucency, pink accent)",
+        "Description[zh_CN]": "ChromeOS \u7cfb\u7edf\u4e3b\u9898\uff0c\u7531 Vince Liuice (\u89c6\u89c9\u8bbe\u8ba1\u5e08) \u8bbe\u8ba1\u5236\u4f5c",
+        "EnabledByDefault": true,
+        "Id": "SimpleGlass",
+        "License": "GPL-3.0",
+        "Name": "SimpleGlass",
+        "Version": "6.2.0",
+        "Website": "https://github.com/vinceliuice",
+        "X-Plasma-HasTranslucentWidgets": true
+    },
+    "X-Plasma-API": "5.0",
+    "X-Plasma-HasTranslucentWidgets": true
+}

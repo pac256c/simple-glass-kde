@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "pac256c"
+            }
+        ],
+        "Category": "",
+        "Description": "SimpleGlass global theme for KDE Plasma",
+        "Id": "com.github.pac256c.SimpleGlass",
+        "License": "GPLv3",
+        "Name": "SimpleGlass",
+        "Website": "https://github.com/pac256c/SimpleGlass-kde",
+        "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+        "X-Plasma-APIVersion": "2"
+    }
+}
