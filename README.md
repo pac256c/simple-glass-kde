@@ -8,7 +8,7 @@ KDE Plasma global theme: ChromeOS-style translucent panels/widgets + Willow blur
 - Plasma desktop theme: `SimpleGlass` (ChromeOS-style, recolored to accent)
 - Look and Feel: `com.github.pac256c.SimpleGlass`
 - Icons: bundled Tela-dark override (base Tela-dark included)
-- Cursor: catppuccin-mocha-dark-cursors (install separately)
+- Cursor: catppuccin-cursors-mocha (dependency)
 - Widget style: Darkly
 - GTK theme: `SimpleGlass` (in `gtk/SimpleGlass`)
 
