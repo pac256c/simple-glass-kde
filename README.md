@@ -14,6 +14,11 @@ KDE Plasma global theme: ChromeOS-style translucent panels/widgets + Willow blur
 - SDDM theme: `TerminalStyleLogin` (in `sddm/TerminalStyleLogin`)
 
 ## Install
+
+Plasma settings (panel layout, fonts, etc.) are tracked in your dotfiles. After installing the package, apply the global theme manually:
+```
+plasma-apply-lookandfeel -a com.github.pac256c.SimpleGlass --resetLayout
+```
 Copy folders to `~/.local/share/` (aurorae/themes, color-schemes, plasma/desktoptheme, plasma/look-and-feel), and install the GTK theme to `~/.themes/SimpleGlass`. Then choose SimpleGlass in System Settings -> Appearance -> Global Theme. Enable blur in System Settings -> Display -> Compositor if needed.
 
 For GTK apps, add to your shell env:
