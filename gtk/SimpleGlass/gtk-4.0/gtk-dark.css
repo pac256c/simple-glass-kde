@@ -8455,3 +8455,21 @@ menuitem:hover, .menuitem:hover, combobox menuitem:hover {
   background-color: #c4366c;
   color: #ffffff;
 }
+
+/* Force readability (high specificity) */
+menu, .menu, combobox popup, .context-menu, menubar {
+  background-color: #1e1e1e !important;
+  color: #fcfcfc !important;
+}
+menuitem, .menuitem, combobox menuitem, menubar menuitem {
+  background-color: #1e1e1e !important;
+  color: #fcfcfc !important;
+}
+menuitem:hover, .menuitem:hover, combobox menuitem:hover, menubar menuitem:hover {
+  background-color: #c4366c !important;
+  color: #ffffff !important;
+}
+button, combobox, .linked button {
+  background-color: #2b2b2b !important;
+  color: #fcfcfc !important;
+}
