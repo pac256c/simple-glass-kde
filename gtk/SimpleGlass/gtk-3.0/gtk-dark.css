@@ -8413,3 +8413,31 @@ FIXME this is really an API */
 
 * { color: #fcfcfc; }
 GtkLabel { color: #fcfcfc; }
+
+button, combobox, combobox button, .linked button {
+  background-color: #2b2b2b;
+  color: #fcfcfc;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+button:hover, combobox:hover, .linked button:hover {
+  background-color: #3a3a3a;
+  color: #fcfcfc;
+}
+button:active, .linked button:active {
+  background-color: #1e1e1e;
+}
+combobox popup, menu, .menu {
+  background-color: #2b2b2b;
+  color: #fcfcfc;
+  border: 1px solid #3a3a3a;
+}
+menuitem, combobox menuitem {
+  color: #fcfcfc;
+  padding: 4px 8px;
+}
+menuitem:hover, combobox menuitem:hover {
+  background-color: #c4366c;
+  color: #ffffff;
+}
