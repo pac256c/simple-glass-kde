@@ -8441,3 +8441,17 @@ menuitem:hover, combobox menuitem:hover {
   background-color: #c4366c;
   color: #ffffff;
 }
+
+/* Fix white-on-white menus */
+menu, .menu, combobox popup, .context-menu {
+  background-color: #3a3a3a;
+  color: #fcfcfc;
+}
+menuitem, .menuitem, combobox menuitem {
+  background-color: #3a3a3a;
+  color: #fcfcfc;
+}
+menuitem:hover, .menuitem:hover, combobox menuitem:hover {
+  background-color: #c4366c;
+  color: #ffffff;
+}
