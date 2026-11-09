@@ -8422,7 +8422,7 @@ button, combobox, combobox button, .linked button {
   padding: 4px 8px;
 }
 button:hover, combobox:hover, .linked button:hover {
-  background-color: #3a3a3a;
+  background-color: #1e1e1e;
   color: #fcfcfc;
 }
 button:active, .linked button:active {
@@ -8444,11 +8444,11 @@ menuitem:hover, combobox menuitem:hover {
 
 /* Fix white-on-white menus */
 menu, .menu, combobox popup, .context-menu {
-  background-color: #3a3a3a;
+  background-color: #1e1e1e;
   color: #fcfcfc;
 }
 menuitem, .menuitem, combobox menuitem {
-  background-color: #3a3a3a;
+  background-color: #1e1e1e;
   color: #fcfcfc;
 }
 menuitem:hover, .menuitem:hover, combobox menuitem:hover {
