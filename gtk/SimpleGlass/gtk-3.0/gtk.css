@@ -8295,7 +8295,7 @@ text color for entries, views and content in general */
 @define-color theme_text_color #fcfcfc;
 /*
 widget base background color */
-@define-color theme_bg_color #333333;
+@define-color theme_bg_color #2b2b2b;
 /*
 text widgets and the like base background color */
 @define-color theme_base_color #2B2B2B;
