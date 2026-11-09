@@ -8473,3 +8473,13 @@ button, combobox, .linked button {
   background-color: #2b2b2b;
   color: #fcfcfc;
 }
+
+/* Broader menu/popover fix */
+popover, .popover, window, dialog {
+  background-color: #1e1e1e;
+  color: #fcfcfc;
+}
+popover contents, .popover contents {
+  background-color: #1e1e1e;
+  color: #fcfcfc;
+}
