@@ -8282,10 +8282,10 @@ window.background.csd.thunar scrolledwindow.frame.sidebar.shortcuts-pane treevie
    use responsibly! */
 /*
 widget text/foreground color */
-@define-color theme_fg_color white;
+@define-color theme_fg_color #fcfcfc;
 /*
 text color for entries, views and content in general */
-@define-color theme_text_color white;
+@define-color theme_text_color #fcfcfc;
 /*
 widget base background color */
 @define-color theme_bg_color #333333;
@@ -8303,7 +8303,7 @@ base background color of insensitive widgets */
 @define-color insensitive_bg_color #333333;
 /*
 text foreground color of insensitive widgets */
-@define-color insensitive_fg_color rgba(255, 255, 255, 0.5);
+@define-color insensitive_fg_color rgba(255, 255, 255, 0.8);
 /*
 insensitive text widgets and the like base background color */
 @define-color insensitive_base_color #303030;
